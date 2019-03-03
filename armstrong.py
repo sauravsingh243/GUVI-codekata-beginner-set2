@@ -1,0 +1,11 @@
+n=int(input())
+copy=n
+s=0
+while(n>0):
+    b=n%10
+    s=s+(b**3)
+    n=n//10
+if(s==copy):
+    print("YES")
+else:
+    print("NO")
